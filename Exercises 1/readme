@@ -2,3 +2,12 @@
  ## Database and Table Creation - USE DDL Commands (Data Definition Language)
 > To create database
 > To create simple tables with only the primary key constraint as a table level constraint & as a field level constraint) (include all data types)
+# A)	Project-Employee
+1.	Create following tables with proper primary key constraint (Underlined Attribute) and Foreign Key constraints.
+   </br > PROJECT (PNO INTEGER, PNAME VARCHAR (30), PTYPE VARCHAR (20), DURATION INTEGER);
+</br > EMPLOYEE (ENO INTEGER, ENAME VARCHAR(20), QUALIFICATION  VARCHAR(15), SALARY FLOAT, JOINING_DATE DATE)
+2.	Add the column STATUS to Project table.
+3.	Add column contact_number to employee table.
+4.	Add Age column to employee table.
+5.	Add Budget column to project table.
+6.	Drop table employee.
